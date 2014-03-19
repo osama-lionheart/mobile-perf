@@ -1,0 +1,20 @@
+<li class="card" data-bind="attr: { 'data-id': id }">
+    <a class="js-job-item" data-bind="route: url">
+        <h1 data-bind="text: title" class="h1 visited"></h1>
+        <h3 data-bind="text: fixed() ? 'Fixed' : 'Hourly'" class="h3"></h3>
+        <span class="mute">- Posted <time data-bind="moment: created, fn: 'fromNow'"></time></span>
+        <p class="card-txt" data-bind="text: description"></p>
+        <div class="info-row">
+            <div class="meta-info">
+                <!-- ko if: fixed() -->
+                <div class="label">Est. Budget</div>
+                <div class="label-value"><span data-bind="currency: budget" class="js-budget"></span></div>
+                <!-- /ko -->
+            </div>
+            <div class="meta-info">
+                <div class="label">Payment</div>
+                <div class="label-value js-verified" data-bind="text: client().verified ? 'Verified' : 'Unverified'"></div>
+            </div>
+        </div>
+    </a>
+</li>

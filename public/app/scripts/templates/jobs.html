@@ -1,0 +1,37 @@
+<header class="header">
+    <div class="logo">oDesk</div>
+    <h1 class="header-flex">
+        <!-- ko ifnot: fetching -->
+        <!-- ko text: Date.now() - navigationStart() --><!-- /ko -->
+        <!-- /ko -->
+    </h1>
+    <a href="javascript:void(0)" class="btn-icon icon-menu"></a>
+</header>
+
+<div class="content">
+    <section class="js-jobs-container loading-container">
+        <!-- ko if: fetching() && !jobs().length -->
+        <div class="loading">
+            Searching...
+        </div>
+        <!-- /ko -->
+
+        <!-- ko if: !fetching() && !jobs().length -->
+        <div class="empty">
+            No results found
+        </div>
+        <!-- /ko -->
+
+        <!-- ko if: jobs().length -->
+            <ul class="card-list" data-bind="foreach: jobs">
+                <!-- ko if: $index() < $parent.maxVisibleJobs() -->
+                <!-- ko template: { name: 'jobTemplate', data: $data } --><!-- /ko -->
+                <!-- /ko -->
+            </ul>
+        <!-- /ko -->
+
+        <!-- ko if: jobs().length > maxVisibleJobs() -->
+        <button class="more js-load-more" data-bind="click: showMore">Show more</button>
+        <!-- /ko -->
+    </section>
+</div>

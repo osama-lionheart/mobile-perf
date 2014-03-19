@@ -1,0 +1,59 @@
+<header class="header">
+    <div class="logo">oDesk</div>
+    <h1 class="header-flex"></h1>
+    <a href="javascript:void(0)" class="btn-icon icon-menu"></a>
+</header>
+
+<div class="content">
+    <section class="js-jobs-container loading-container">
+        <% if (false) { %>
+        <!-- ko if: fetching() && !jobs().length -->
+        <div class="loading">
+            Searching...
+        </div>
+        <!-- /ko -->
+        <% } %>
+
+        <% if(!$data.jobs.length) { %>
+        <!-- ko if: !fetching() && !jobs().length -->
+        <div class="empty">
+            No results found
+        </div>
+        <!-- /ko -->
+        <% } %>
+
+        <% if ($data.jobs.length ) { %>
+        <!-- ko if: jobs().length -->
+        <ul class="card-list" data-bind="template: { name: 'jobTemplate', foreach: jobs }">
+            <% _.each($data.jobs, function(job) { %>
+            <li class="card" data-id="<%= job.id %>" data-bind="attr: { 'data-id': id }">
+                <a class="js-job-item" href="<%= '/jobs/' + job.id %>" data-bind="route: url">
+                    <h1 data-bind="text: title" class="h1 visited"><%= job.title %></h1>
+                    <h3 data-bind="text: fixed() ? 'Fixed' : 'Hourly'" class="h3"><%= job.fixed ? 'Fixed' : 'Hourly' %></h3>
+                    <span class="mute">- Posted <time data-bind="moment: created, fn: 'fromNow'"><%= moment(job.created).fromNow() %></time></span>
+                    <p class="card-txt" data-bind="text: description"><%= job.description %></p>
+                    <div class="info-row">
+                        <div class="meta-info">
+                            <% if (job.fixed) { %>
+                            <!-- ko if: fixed() -->
+                            <div class="label">Est. Budget</div>
+                            <div class="label-value"><span data-bind="currency: budget" class="js-budget"><%= '$' + roundNumber(job.budget) %></span></div>
+                            <!-- /ko -->
+                            <% } %>
+                        </div>
+                        <div class="meta-info">
+                            <div class="label">Payment</div>
+                            <div class="label-value js-verified" data-bind="text: client().verified ? 'Verified' : 'Unverified'">
+                                <%= job.client.verified ? 'Verified' : 'Unverified' %>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <% }) %>
+        </ul>
+        <!-- /ko -->
+        <% } %>
+
+    </section>
+</div>

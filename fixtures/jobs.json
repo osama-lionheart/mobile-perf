@@ -1,0 +1,628 @@
+{
+    "_metadata": {
+        "total": 3504
+    },
+    "jobs": [{
+        "id": "~013f28564ba11ec642",
+        "clientId": "",
+        "description": "Looking for an experienced .Net Web Developer.\r\n\r\nRequirements:\r\n\r\nExpertice in DotNetNuke\r\n·         Good experience of SSRS\r\n·         Good experience of C# ASP.Net, Visual Studio 2010/2012\r\n·         Experience with cross browser compatibility using Telerik\r\n·         AJAX, JavaScript, CSS\r\n·         WCF\r\nHTML",
+        "title": ".Net Nuke Developer",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395070447000,
+        "skills": [
+            "asp.net",
+            "c#",
+            "dotnetnuke",
+            "html",
+            "javascript",
+            "microsoft-sql-ssrs"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~01b48bdb795b6d55d9",
+        "clientId": "",
+        "description": "I have designed a graph and now need a javascript expert to create it.\r\n\r\nHere is the graph: http://cl.ly/image/1Q3k3k2g2x41\r\n\r\nI have all editable images in .png format.  I need this to be created in 3 days or less.\r\n\r\nPlease reference \"create graph\" at the top of your bid so that I know you read this.",
+        "title": "Javascript Expert Needed to Create Graph",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395069181000,
+        "skills": [
+            "javascript"
+        ],
+        "client": {
+            "verified": false
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": true,
+        "hourly": false,
+        "budget": 50
+    }, {
+        "id": "~0172796e56663dee4c",
+        "clientId": "",
+        "description": "Para nuestro cliente, una empresa multinacional con oficinas en Londres, New York y América latina, estamos buscando Developers PHP Semi-Senior\r\n\r\n\r\nActualmente estamos buscando 2 programadores PHP Semi-Senior para trabajar con nosotros en nuestras oficinas de Buenos Aires (Argentina) en proyectos muy interesantes. \r\n\r\nRequisitos(excluyentes):\r\n- Residentes en Buenos AIres \r\n-Haber trabajado con PHP/MySQL por lo menos 3 años\r\n-Experiencia con HTML\r\n-Experiencia con JavaScript\r\n-Nivel de inglés Avanzado o bilingüe\r\n\r\nDeseables:\r\nSiempre estar dispuesto a aprender y a enseñar!\r\nDisfrutar de ámbitos dinámicos de trabajo\r\nSaber desarrollar aplicaciones MVC\r\nSaber GIT\r\nPoder trabajar bajo presión y con deadlines\r\nSaber trabajar en equipo y comunicar eficientemente\r\n\r\n\r\n\r\n\r\nHorario: Fulltime. Lunes a Viernes de 10:00 a 19:00\r\n\r\nQuienes estén interesados, enviar un mail con Cv actualizado y remuneración neta (en mano) pretendida a la dirección indicada mas abajo.",
+        "title": "Programadores PHP Semi-Senior",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395068250000,
+        "skills": [
+            "html",
+            "javascript",
+            "mysql",
+            "php"
+        ],
+        "client": {
+            "verified": false
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~011f8758529126c209",
+        "clientId": "",
+        "description": "Program to be modified:\r\nI have an .html program I use interactively every day on the web at: \r\nhttp://www.maxton.com/temp/03172014odesk.html\r\n\r\nIt only works properly with a very limited list of cities. Essentially, one page long or less. \r\n\r\nI want to run more cities at one time but have run into a screen problem. The best way to see this is to run the program from the above link. The problem that needs fixing is obvious after you hit the \"next\" key at the bottom left side of the page. If the problem is not readily apparent then you are the wrong person for the job.\r\n\r\nRestrictions:\r\nI am not going to change to a different platform or non-web based software.\r\nThis .html file uses some javascript commands and html code. It is what it is.\r\nIf you need to ask me what programming language it is, please do not contact me. \r\n\r\nThe city menu on the left side of the screen needs to work properly with the results screen. This can be accomplished if the city menu scrolls or advances independently of the results screen. It would also be nice to see some sort of counter on the next button that shows you where you are in the city menu. Or maybe the city being checked could be highlighted.\r\n\r\nAnywhere, I've taken this program as far as I can and need help to advance it further. This will be ongoing as I see the need for modifying this program over time.",
+        "title": "Web Based Search Program Modifications 03172014",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395067929000,
+        "skills": [
+            "html",
+            "java"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Software Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": true,
+        "hourly": false,
+        "budget": 500
+    }, {
+        "id": "~0138804fc56134ed03",
+        "clientId": "",
+        "description": "We are developing a B2B SaaS using Ruby on Rails, Javascript and HighCharts. We need to develop and implement a testing protocol.",
+        "title": "Testing",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395067879000,
+        "skills": [
+            ""
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Software Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~014e9cd17b76387b56",
+        "clientId": "",
+        "description": "Are you able to design and program a pretty and functional application in JavaScript?\r\n\r\nWe require an application that will run in all browsers, and also in mobile phones. Ideally it will have a responsive design to ensure it works well on mobile phones. \r\n\r\nThe application will identify the bulbs used in a specific car, and will display the bulbs in a visual interface. The application will then present easy-to-click links to an e-commerce site which sells the bulbs.\r\n\r\nThe application will interface with an API providing results in a JSON format, and based on the results the application will take one of several paths to display the result.\r\n\r\nInitially, the application will request a number plate from the visitor, alternatively a list of options will be provided and the visitor must navigate drop-down menus until they select their car model.\r\n\r\nWhen submitting a number plate, one of several responses will be presented:\r\n\r\n- A unique bulb combination has been identified, and the bulbs can be displayed.\r\n- A unique bulb combination has been identified, yet there are minor variations and the visitor must clarify what combination they have. This will be presented through drop-down choices.\r\n- There may be two or more combinations, and the visitor must select between 2 or more car models of similar type using drop-downs.\r\n\r\nThe bulb results fall into 3 different categories: LED, halogen or xenon. The visitor should be presented with an easy way to distinguish between the different types so they can easily make their choice.\r\n\r\nTo see a similar application, visit http://www.autobulbsdirect.co.uk/citroen-xsara-picasso-mpv-2001-y\r\n\r\nHere you can type in a UK license plate, or alternatively navigate a drop-down list of models, types and year group. When a car has been identified, a list of bulbs are available. This gives a good indication of how this will work, although our system will be slightly different.\r\n\r\nYou will need to come up with original graphics and look and feel based on our own website which is http://www.ekstralys.no/\r\n\r\nWe are currently creating an API which will present the results. When you are awarded the project we would expect you to start work immediately on the user interface and provide mockups. When approved and the API is completed you will need to start working immediately to produce the final result.\r\n\r\nIn order to be considered you must already have experience with this kind of work. Key technologies are: UI design, graphics, JavaScript, jQuery and Ajax calls.\r\n\r\nIn your bid, please provide links to JavaScript applications and to user interface designs you have made together with a realistic timescale and bid for this project. Companies with a multi-skilled team will be preferred.\r\n\r\nPlease provide a complete price, including all sensible revisions to ensure the system is fully working according to specifications and UI design.",
+        "title": "Website JavaScript application with design & user interaction",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395067823000,
+        "skills": [
+            "ajax",
+            "graphic-design",
+            "javascript",
+            "jquery",
+            "jquery-mobile",
+            "ui-design"
+        ],
+        "client": {
+            "verified": false
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": true,
+        "hourly": false,
+        "budget": 1000
+    }, {
+        "id": "~01609404c670927cad",
+        "clientId": "",
+        "description": "oDesk Professional Services is looking for an experienced Python developer. The right candidate should have solid programming experience. You will work with one of the core branches of oDesk, and building tools on top of oDesk API. \r\n\r\nWe are looking for candidates who are willing to work full-time, if not immediately, then at least within the next few weeks. This is a long-term contract for the right candidate.\r\n\r\nRequirements: \r\n\r\n+ Skills\r\n1. Proven Python and web development experience - either in the form of top test scores or in the form of referenceable work\r\n2. Uses JavaScript/JQuery\r\n3. Has decent CSS design skills - i.e. can finish/polish the HTML themselves\r\n4. Comfortable with distributed version control git/mercurial etc\r\n5. Strong communication skills\r\n6. Independent contractor - we are not looking to hire agency contractors at the moment. \r\n\r\n+ Availability\r\n7. Available to work as soon as possible\r\n8. Be able to allocate 30 hrs per week. The availability need could start part-time for about 2 weeks, but later on, we are hoping you can provide full-time availability.\r\n\r\nNice to have:\r\n- Proven Django experience\r\n- Proven experience developing RESTful APIs\r\n- Have some open source contribution in Python projects\r\n- Have community participation in Python lists/blogs etc. \r\n\r\nLooking forward to hearing from you!",
+        "title": "Work for oDesk! Experienced Python/Django Developer",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395067755000,
+        "skills": [
+            ""
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Software Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~013fd4bc7098623916",
+        "clientId": "",
+        "description": "We are looking for a talented and motivated developer with superior PHP/Zend framework skills to work on the oDesk Corporate site. This is an exciting opportunity to work directly on the platform you utilize as a freelancer!\r\n\r\nThis position is part of a worldwide development team, that works collaboratively in an agile environment. You will play in an important role in developing new features for our site, as well as enhancing existing code. The projects are managed by the Product Architects based in the United States, so good English skills are imperative. \r\n\r\nWe look for individuals who are able to commit full-time (35+ hours per week). You  can work whatever schedule is best for you, we just will need you to be available a few hours in the Pacific Time Zone for meetings.  \r\n\r\nSkills Required:\r\nPHP, Zend Framework, Unit testing, OO design - expert level\r\nPSQL and some Perl experience is a plus\r\nJS/HTML5/CSS3 - strong knowledge\r\nGood Experience in GIT\r\nBackbone.js/Angular.js is a big plus\r\nSass/Compass is a big plus \r\nEnglish - good\r\n\r\n\r\nAll candidates must be willing and able to conduct interviews via Skype/video/chat. This is a long term gig of 6+ months and we would want this role to be your first priority. No agencies please.",
+        "title": "Work for oDesk!  PHP/Javascript Developer - Full Time Work",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395067603000,
+        "skills": [
+            "javascript",
+            "php",
+            "zend-framework"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~014ceed688aa8b94dd",
+        "clientId": "",
+        "description": "Create HTML IFrame where user uploads a picture, edit, and generate a preview of the picture. Web.\r\nRecommended Plugins, Ink FIle Picker + Aviary. See the link below.\r\n\r\nhttps://www.inkfilepicker.com/products/aviary\r\n\r\nMore details on skype.\r\n\r\nBest Regards.",
+        "title": "Ink FIle Picker + Aviary",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395067375000,
+        "skills": [
+            "html5",
+            "javascript"
+        ],
+        "client": {
+            "verified": false
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~01d52136a656beea59",
+        "clientId": "",
+        "description": "Looking for an UI Web developer with JS and agular.js skills.\r\nRemote development, 2-3 months contract, 40 hours a week. \r\n\r\nSkills Required:\r\nAt least 3 years of significant web development experience creating high-performance, modular JavaScript-driven sites.\r\nPassion for UI and able to translate user interactions to dynamic web UIs\r\nSolid experience in creating and optimising single-page web applications using HTML5, CSS3, JavaScript, angular.js in particular.\r\nSolid experience in styling and theming using CSS3, as well as CSS pre-processing technologies such as LESS.\r\nHands-on experience in using SOAs REST APIs, JSON, JSONP to create dynamic web content.\r\nProficient with current agile engineering practices (Scrum or Kanban, user stories and agile estimation, Continuous Integration with Jenkins, Git workflows, Unit testing and automation) \r\nA good understanding of Cloud Computing and Infrastructure as a Service.\r\nGood knowledge of Linux and command line shell interface.\r\nA passion for open source software development and desire to contribute to the community.\r\nBeing a team player with proactive attitude to problem solving and good sense of humor.\r\nGood verbal, presentation and written communications skills with good spoken and written English.\r\n\r\nPlus\r\nExperience in usability tests and UX design would be a big plus\r\nExperience in Test Driven Development (TDD)/Behavior-Driven Development (BDD) would be a big plus\r\n\r\nPlease apply with a CV with JS + angular.js projects portfolio! Thanks.",
+        "title": "UI Developer (JS + angular) for 2-3 months full-time",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395067331000,
+        "skills": [
+            "javascript",
+            "website-development"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~0141aa6413777a746f",
+        "clientId": "",
+        "description": "Developer position unlike ANY that you have ever come across! \r\n \r\nOur team of committed programming gurus are LITERALLY changing thousands of lives and businesses \r\neveryday with the code we write. \r\n \r\nAND THE GOOD NEWS... We are looking to hire another PHP ROCKSTAR to join our team. \r\n \r\nIf you want to write code that thousands of people use and if you have a passion, no an obsession, for \r\nclean and efficient code then I encourage you to apply now for consideration! :) \r\n \r\nHere is what you will need to bring to the table (to be in the ball park of our existing team): \r\n- 3+ years programing experience \r\n- PHP - at least 6 years of experience \r\n- MySQL - at least 6 years of experience \r\n- HTML5/CSS/Jquery - 5 years of experience \r\n- English Should Be Your First Language \r\n- Team player \r\n- Great communication \r\n- Able to make decisions by himself/herself \r\n- Knowledge how to use Github/SVN \r\n \r\nTO APPLY: \r\n \r\nIf you are psyched then please apply now with the following information. We are asking for a few things \r\nso we can determine who the experts are. Please include the following information when applying: \r\n \r\n1. Include a personalized cover letter indicating: \r\n- Submit your resume w/ salary history \r\n- Contact information \r\n- Indicate that you have read and meet the minimum requirements \r\n- Tell me why you are Rockstar Senior Devloper and hardcore PHP expert. \r\n2. 2 References from programming experience \r\n3. GIVE 2 EXAMPLES OF SOFTWARE YOU HAVE MANAGED TO CREATE AND DESCRIBE YOUR ROLE IN \r\nCREATING EACH SOFTWARE. (Links Or Screenshots - Only 2 SOFTWARE) \r\n \r\n**If you don't meet the minimum requirements please DO NOT APPLY. I encourage you to keep learning \r\nand apply in the future. \r\n \r\nGood luck!",
+        "title": "Need PHP developer with 5 year Experience Asap",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395066175000,
+        "skills": [
+            "api-development",
+            "html",
+            "html5",
+            "javascript",
+            "jquery",
+            "php"
+        ],
+        "client": {
+            "verified": false
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~01a483b634017febfe",
+        "clientId": "",
+        "description": "We have a number of affiliate links on our site that users click on to to make purchases, the money then gets kicked back to us for the purchase which we then share with the originating purchaser/user.\r\n\r\nWhat we require is a cross platform plugin - if this is not possible a plugin for each - for the major browsers, primarily Windows Explorer, Google Chrome, Firefox and Safari, where a user no longer needs to make purchases via our site to get the affiliate payment share, but instead the plugin should be able to (I would imagine via database of sites that we would add) know that the user is on a certain site - for this example say the Apple site - and if a purchase is made, use 'our' affiliate link for that purchase (obviously all the user would know and opt into this service). This way, we still receive the affiliate money even if they have forgotten to shop via our site (which is a major problem) which we can then share with the user.\r\n\r\nFor information the system would need to be able to tie into our existing Drupal 7 website. However, please note we do have expert Drupal/PHP developers so might only need someone that can develop the plugin, which we can then integrate.",
+        "title": "Browser Plugin for Tracking Affiliate Purchases",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395063360000,
+        "skills": [
+            "css",
+            "css3",
+            "html",
+            "html5",
+            "javascript"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~013c20bdee3fcf0a1f",
+        "clientId": "",
+        "description": "We are looking for an experienced PHP developer to join our dynamic team of developers in London. You must be available to work from 09:00 A.M - 05:00 P.M London GMT.\r\n\r\n\r\nResponsibilities May Include: \r\n\r\nAnalyzes user requirements for system features and functionality\r\n\r\nDesigns and develops user interfaces \r\n\r\nSets expectations and establishes priorities throughout the development life \r\ncycle\r\n\r\nIntegrates applications by designing database architecture and server scripting\r\n\r\nCreates multimedia applications by using authoring tools\r\n   \r\n\r\nJOB REQUIREMENTS\r\n--------------------------------\r\nExperience working with PHP  in a web environment\r\nAble to work well under pressure and deadlines\r\nOrganized and punctual\r\nPassionate about programming \r\nCapable of independent thought and research\r\nAble to write well (spelling, punctuation, and grammar) outside of an IDE \r\nA team player but able to take an assignment and run with it \r\nAble to set personal deadlines and meet them \r\nFamiliar with and follow industry best-practices (e.g. source control, self-documenting code, error-free quality control) \r\n    \r\n2+ yr experience in the following: \r\nStrong understanding of MySQL\r\nPHP \r\nVery familiar with IIS \r\nA JavaScript guru\r\nUnderstanding of AJAX",
+        "title": "PHP DEVELOPER",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395062476000,
+        "skills": [
+            "php"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": true,
+        "hourly": false,
+        "budget": 1500
+    }, {
+        "id": "~010dedfd75354bc863",
+        "clientId": "",
+        "description": "Wee need to convert some PSD to HTML page, the screens are mobile application of Ignilife. We use ionicframework (JS and CSS), is a mobile framework.\r\n\r\nList of pages:\r\nWe have about 12 PSD pages to convert. Is mobile screen with few elements.\r\nIn attached an example screen.",
+        "title": "Web Developer to convert PSD to HTML",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395062459000,
+        "skills": [
+            "adobe-photoshop",
+            "css3",
+            "html5",
+            "javascript"
+        ],
+        "client": {
+            "verified": false
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~01683cf335dd474de0",
+        "clientId": "",
+        "description": "Hi There\r\n\r\nWe're looking for someone who's worked with Parallax before to make some tweaks to an existing site to get the speed of the slides working slower and also ensure they don't overlay.\r\n\r\nWe also need you to ensure the site works across all browsers and sizes. You'll advise us on the best size for the background images so they work on larger browsers and ensure the copy resizes to fit on 1024 x 768.\r\n\r\nWe'll supply the details properly to candidates who have good parallax html 5 animation and javascript skills only so please only apply if you have a very high standard in these areas.",
+        "title": "CSS 3 / Cross Browser Complaint Parallax Javascript Tweaks For Existing Site",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395062226000,
+        "skills": [
+            "css3",
+            "html5",
+            "javascript",
+            "jquery"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~01e243e151830b5b18",
+        "clientId": "",
+        "description": "We are a company based in Italy with focus on high quality UI/UX design products. \r\n\r\nWe are looking for UI engineer for full-time collaboration on our projects. \r\n\r\nWe will not consider any agency. Only freelancers.\r\n\r\nRequirements:\r\n• Back-End development (PHP, WordPress).\r\n• Basic knowledge of *nix systems.\r\n• Advanced Front-End development (HTML5, CSS3, JavaScript, jQuery).\r\n• Understanding of web standards, responsive and accessible interfaces.\r\n• Third-party API integration.\r\n• Strong spoken and written communication skills (english).\r\n• Versioning Control (Git/GitHub).\r\n\r\n\r\nTo apply please provide:\r\n• your LinkedIn account\r\n• your GitHub account \r\n• your Twitter account",
+        "title": "UI & WordPress Developer",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395062000000,
+        "skills": [
+            "automated-testing",
+            "css3",
+            "database-design",
+            "git",
+            "html",
+            "html5",
+            "javascript",
+            "mysql",
+            "php",
+            "sass",
+            "unix-shell",
+            "wordpress"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~019d7282be67f39569",
+        "clientId": "",
+        "description": "We are looking for a sharp web designer who can be trusted to create animated template using Adobe Illustrator for our new website. The designer will take our thoughts and direction and convert them into a professional well designed animated template that can be added into our website as a package.\r\n\r\nDesigner will might help in slicing some mockups in preparation for the developer to incorporate the design into under development website. Huge plus if you can handle both the design and development aspect of this project.\r\n\r\nIn order to be a perfect fit for this position you MUST have the following skills:\r\n\r\n* Adobe Illustrator Skills\r\n* Animation using AI\r\n* Excellent Knowledge with AI->HTML Canvas Converter Plugin from Adobe\r\n\r\nProject Duration: 2 Weeks – Full Time\r\nTeam Time Zone: +2GMT\r\n\r\nPlease let the candidate answer these questions:\r\n\r\n1- How many years you have been producing work using AI?\r\n\r\n2- Send us Samples of your previous work (MUST)\r\n\r\n3- Why you are a perfect fit for this position?",
+        "title": "Wireframe and Adobe Illustrator Designer for Website",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395061838000,
+        "skills": [
+            "adobe-illustrator",
+            "adobe-photoshop",
+            "animation",
+            "css3",
+            "graphic-design",
+            "html5",
+            "javascript"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Design & Multimedia",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~0158f198bf680217d4",
+        "clientId": "",
+        "description": "As Front End Developer, you'll design, develop and maintain complex and highly visible web projects that address specific vertical market in the north-american industry. You'll also be responsible for proposing innovative solutions on technical issues.  This is  an ongoing project and could require some work until the end of the year.\r\n\r\nYou must: \r\n1. Be a PURE front-end developer, not a web integrator. \r\n2. Live and breathe JavaScript, AngularJs, jQuery, Bootstrap, HTML5, MongoDB\r\n3. Be super organized, and document everything in standardized form\r\n4. Love creating a product from the ground up.\r\n5. Provide solutions to real-world problem with software functionalities\r\n6. Be proud of your code \r\n7. Enjoy solving complex visual and algorithmic problems\r\n\r\nWe are looking for:\r\n\r\n1. Senior/Lead Front-End Developer with 5+ years in related experience \r\n2. 3+ years (current) specializing in front-end JavaScript \r\n3. 1+ year (current) in AngularJs \r\n4. 1+ year (current) in MongoDB\r\n5. 2+ years (current) in leading UI framework (Bootstrap or jQueryUI) \r\n6. 5 years+ (current) HTML 4/5, CSS/CSS3, LESS, jQuery, AJAX, JSON, Socket IO, Amazon AWS\r\n7. Responsive design (media queries) \r\n8. Able to understand data communication with web services / SOAP / REST\r\n9. Experience with git, and scrum development cycles\r\n\r\n** Must use Skype AND Google Hangout **\r\n\r\n** Excellent communication skills in english **\r\n\r\n** Please enter your monthly rate in your bids **",
+        "title": "Web / Angular JS - Front End Developer",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395061723000,
+        "skills": [
+            "html5",
+            "javascript",
+            "mongodb",
+            "node.js",
+            "twitter-bootstrap"
+        ],
+        "client": {
+            "verified": false
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~015248f0911913cc1a",
+        "clientId": "",
+        "description": "We are a company based in Italy with focus on high quality UI/UX design products. \r\n\r\nWe are looking for UI engineer for full-time collaboration on our projects. \r\n\r\nWe will not consider any agency. Only freelancers.\r\n\r\nRequirements:\r\n• Advanced Front-End development (HTML5, CSS3, JavaScript, jQuery).\r\n• Understanding of web standards, responsive and accessible interfaces.\r\n• Third-party API integration.\r\n• Strong spoken and written communication skills (english).\r\n• Versioning Control (Git/GitHub).\r\n\r\nPreferred:\r\n• Back-End development (PHP, WordPress).\r\n• Basic knowledge of *nix systems.\r\n\r\nTo apply please provide:\r\n• your LinkedIn account\r\n• your GitHub account \r\n• your Twitter account",
+        "title": "User Interface Engineer",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395061722000,
+        "skills": [
+            "css3",
+            "ecmascript",
+            "git",
+            "html",
+            "html5",
+            "javascript",
+            "sass"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }, {
+        "id": "~0103b020f0cc6d4e84",
+        "clientId": "",
+        "description": "Looking for a PHP Developer with good knoweldge of CodeIgniter framework. Remote development, maximum 10 hours per week/30-40 hours per month.\r\n\r\nEssential Skills:\r\n- An understanding of object orientated programming in PHP 5.X \r\n- In depth knowledge of MySQL 5.X including database optimisation, REST & SOAP API services & appending large datasets between API services \r\n- Great understanding of jQuery and client side Javascript \r\n- Knowledge of PHP MVC frameworks, most notably CodeIgniter is a must \r\n- At least 3 years experience as a programmer \r\n- Good spoken English\r\n\r\nBeneficial Skills: \r\n- MySQLi coding experience \r\n- Great knowledge of Apache and web server orientated administration (NGINX is a plus) \r\n- Great knowledge of node.js \r\n- Knoweldge of Laravel\r\n\r\nPlease apply with a CV with PHP and Javascript projects portfolio.",
+        "title": "PHP + CodeIgniter 30-40 hours PER MONTH",
+        "total": 0,
+        "hires": 0,
+        "active": 0,
+        "inviteOnly": false,
+        "created": 1395061709000,
+        "skills": [
+            "codeigniter",
+            "javascript",
+            "php"
+        ],
+        "client": {
+            "verified": true
+        },
+        "category": "Web Development",
+        "maxRate": 0,
+        "minRate": 0,
+        "maxApplicantRate": 0,
+        "minApplicantRate": 0,
+        "ratings": 0,
+        "amount": 0,
+        "engagementWeeks": "",
+        "engagement": "",
+        "fixed": false,
+        "hourly": true,
+        "budget": 0
+    }]
+}

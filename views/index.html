@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>mobile-perf</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="/styles/main.css">
+    </head>
+    <body>
+        <div class="panel <%= className %> in">
+            <div class="panel-inner">
+                <%= content %>
+            </div>
+        </div>
+
+        <script>
+            (function() {
+                var panelEl = document.querySelector('.panel-inner');
+                var cache = {};
+
+                var ajax = function(options) {
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open(options.type || 'GET', options.url);
+
+                    xhr.addEventListener('load', function() {
+                        var resp = xhr.responseText;
+
+                        if (xhr.getResponseHeader('content-type') === 'application/json') {
+                            resp = JSON.parse(resp);
+                        }
+
+                        options.success && options.success(resp);
+                    });
+
+                    if (options.headers) {
+                        Object.keys(options.headers).forEach(function(key) {
+                            xhr.setRequestHeader(key, options.headers[key]);
+                        });
+                    }
+
+                    xhr.send();
+
+                    return xhr;
+                };
+
+                var attachEventHandlers = function(selector, callback) {
+                    Array.prototype.forEach.call(document.querySelectorAll(selector), function(element) {
+                        element.addEventListener('click' , function(event) {
+                            callback.call(this);
+                            event.preventDefault();
+                        });
+                    });
+                };
+
+                var loadPanel = function(url) {
+                    window.navigationStart = Date.now();
+
+                    var render = function(resp) {
+                        cache[url] = resp;
+                        panelEl.innerHTML = resp.content;
+                        document.querySelector('header .header-flex').textContent = Date.now() - window.navigationStart;
+                        init();
+                    };
+
+                    // Return cached response.
+                    /*if (cache[url]) {
+                        return render(cache[url]);
+                    }*/
+
+                    panelEl.innerHTML = '<div class="loading-backdrop"><div class="loading">Loading</div></div>';
+
+                    return ajax({
+                        url: url,
+                        headers: {
+                            'Accept': 'application/json',
+                            'X-Pjax': true,
+                            'X-Requested-With': 'XMLHttpRequest'
+                        },
+                        success: render.bind(this)
+                    });
+                };
+
+                var init = function() {
+                    attachEventHandlers('.js-job-item, .js-back', function() {
+                        history.pushState({ url: this.href }, document.title, this.href);
+                        loadPanel(this.href);
+                    });
+                };
+
+                window.addEventListener('load', function() {
+                    setTimeout(function() {
+                        document.querySelector('header .header-flex').textContent = performance.timing.loadEventEnd - performance.timing.navigationStart;
+                    }, 0);
+                });
+
+                window.addEventListener('popstate', function(event) {
+                    if (event.state) {
+                        loadPanel(event.state.url)
+                    }
+                });
+
+                init();
+            })();
+        </script>
+    </body>
+</html>

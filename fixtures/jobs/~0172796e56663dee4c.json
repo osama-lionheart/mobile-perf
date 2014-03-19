@@ -1,0 +1,40 @@
+{
+	"id": "~0172796e56663dee4c",
+	"clientId": "",
+	"description": "Para nuestro cliente, una empresa multinacional con oficinas en Londres, New York y América latina, estamos buscando Developers PHP Semi-Senior\n\n\nActualmente estamos buscando 2 programadores PHP Semi-Senior para trabajar con nosotros en nuestras oficinas de Buenos Aires (Argentina) en proyectos muy interesantes. \n\nRequisitos(excluyentes):\n- Residentes en Buenos AIres \n-Haber trabajado con PHP/MySQL por lo menos 3 años\n-Experiencia con HTML\n-Experiencia con JavaScript\n-Nivel de inglés Avanzado o bilingüe\n\nDeseables:\nSiempre estar dispuesto a aprender y a enseñar!\nDisfrutar de ámbitos dinámicos de trabajo\nSaber desarrollar aplicaciones MVC\nSaber GIT\nPoder trabajar bajo presión y con deadlines\nSaber trabajar en equipo y comunicar eficientemente\n\n\n\n\nHorario: Fulltime. Lunes a Viernes de 10:00 a 19:00\n\nQuienes estén interesados, enviar un mail con Cv actualizado y remuneración neta (en mano) pretendida a la dirección indicada mas abajo.",
+	"title": "Programadores PHP Semi-Senior",
+	"total": 0,
+	"hires": 0,
+	"active": 0,
+	"interviewees": 0,
+	"inviteOnly": false,
+	"created": 1395068250000,
+	"skills": [
+		"html",
+		"javascript",
+		"mysql",
+		"php"
+	],
+	"client": {
+		"id": "~0172796e56663dee4c",
+		"timezone": "-03:00",
+		"memberSince": "January 3, 2014",
+		"totalSpent": 0,
+		"hoursBilled": 0,
+		"paidContracts": 0,
+		"verified": false,
+		"score": 0,
+		"assignments": []
+	},
+	"type": "Hourly",
+	"category": "Web Development",
+	"maxRate": 0,
+	"minRate": 0,
+	"maxApplicantRate": null,
+	"minApplicantRate": null,
+	"ratings": 0,
+	"amount": null,
+	"engagementWeeks": "More than 6 months",
+	"engagement": "Full-time - 30+ hrs/week",
+	"applyLink": "https://www.odesk.com/job/~0172796e56663dee4c/apply"
+}

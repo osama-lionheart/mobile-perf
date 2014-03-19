@@ -1,0 +1,539 @@
+{
+	"id": "~013f28564ba11ec642",
+	"clientId": "",
+	"description": "Looking for an experienced .Net Web Developer.\n\nRequirements:\n\nExpertice in DotNetNuke\n·         Good experience of SSRS\n·         Good experience of C# ASP.Net, Visual Studio 2010/2012\n·         Experience with cross browser compatibility using Telerik\n·         AJAX, JavaScript, CSS\n·         WCF\nHTML",
+	"title": ".Net Nuke Developer",
+	"total": 0,
+	"hires": 0,
+	"active": 0,
+	"interviewees": 0,
+	"inviteOnly": false,
+	"created": 1395070447000,
+	"skills": [
+		"asp.net",
+		"c#",
+		"dotnetnuke",
+		"html",
+		"javascript",
+		"microsoft-sql-ssrs"
+	],
+	"client": {
+		"id": "~013f28564ba11ec642",
+		"timezone": "-06:00",
+		"country": "United States",
+		"memberSince": "July 17, 2013",
+		"totalSpent": 50000,
+		"hoursBilled": 37525.6666666667,
+		"paidContracts": 158,
+		"verified": true,
+		"score": 4.99247980965163,
+		"assignments": [{
+			"from": "03/2014",
+			"to": "Present",
+			"title": "Web Developer",
+			"spent": 100,
+			"hoursBilled": 18,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "03/2014",
+			"to": "Present",
+			"title": "Retail Data Management",
+			"spent": 100,
+			"hoursBilled": 82,
+			"rate": "$2.50",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "03/2014",
+			"to": "Present",
+			"title": "Retail Data Management",
+			"spent": 100,
+			"hoursBilled": 82,
+			"rate": "$2.50",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "03/2014",
+			"to": "Present",
+			"title": "Retail Data Management",
+			"spent": 100,
+			"hoursBilled": 83,
+			"rate": "$2.50",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "03/2014",
+			"to": "Present",
+			"title": "Retail Data Management",
+			"spent": 100,
+			"hoursBilled": 82,
+			"rate": "$2.50",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "02/2014",
+			"to": "Present",
+			"title": "SSIS Developer",
+			"spent": 938.8,
+			"hoursBilled": 122,
+			"rate": "$11.11",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "02/2014",
+			"to": "Present",
+			"title": "Quality Assurance Expert",
+			"spent": 1554,
+			"hoursBilled": 152,
+			"rate": "$14.00",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "01/2014",
+			"to": "Present",
+			"title": "Quality Assurance Expert",
+			"spent": 4987.3,
+			"hoursBilled": 223,
+			"rate": "$26.67",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "01/2014",
+			"to": "Present",
+			"title": "Retail Data Management",
+			"spent": 700,
+			"hoursBilled": 323,
+			"rate": "$2.50",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "01/2014",
+			"to": "Present",
+			"title": "Retail Data Management",
+			"spent": 700,
+			"hoursBilled": 321,
+			"rate": "$2.50",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "01/2014",
+			"to": "Present",
+			"title": "Retail Data Management",
+			"spent": 700,
+			"hoursBilled": 322,
+			"rate": "$2.50",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "01/2014",
+			"to": "Present",
+			"title": "3d Unity Developer",
+			"spent": 7725,
+			"hoursBilled": 289,
+			"rate": "$30.00",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "12/2013",
+			"to": "Present",
+			"title": ".Net Nuke Developer",
+			"spent": 3729.99,
+			"hoursBilled": 413,
+			"rate": "$10.00",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "12/2013",
+			"to": "Present",
+			"title": ".Net Nuke Developer",
+			"spent": 4028.57,
+			"hoursBilled": 313,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "12/2013",
+			"to": "Present",
+			"title": "Retail Database Manager",
+			"spent": 1300,
+			"hoursBilled": 562,
+			"rate": "$2.50",
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "01/2014",
+			"to": "03/2014",
+			"title": "C#/Asp/.Net/SQL",
+			"spent": 2945.05,
+			"hoursBilled": 201,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Thank you so much. Pleasure to work with them.",
+			"score": 5,
+			"from": "11/2013",
+			"to": "03/2014",
+			"title": "Web Developer",
+			"spent": 6273.49,
+			"hoursBilled": 396,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "01/2014",
+			"to": "03/2014",
+			"title": "Unity Dynamic Mesh Expert",
+			"spent": 4524.59,
+			"hoursBilled": 183,
+			"rate": "$10.00",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "02/2014",
+			"to": "03/2014",
+			"title": "API",
+			"spent": 141.69,
+			"hoursBilled": 9.33,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Poor communication. Unclear requirements. Not a good experience.",
+			"score": 2,
+			"from": "02/2014",
+			"to": "03/2014",
+			"title": "UI/UX Designer for Web and Mobile",
+			"spent": 183.37,
+			"hoursBilled": 11,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "09/2013",
+			"to": "03/2014",
+			"title": "API Developer",
+			"spent": 15514.19,
+			"hoursBilled": 931,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Thanks for opportunity , i really like to work with you guys. Hope we'll work again soon. Thanks to be a part of Hash Softwares !",
+			"score": 5,
+			"from": "01/2014",
+			"to": "03/2014",
+			"title": "ASP.net / C# / SQLServer",
+			"spent": 2180,
+			"hoursBilled": 145,
+			"rate": "$15.00",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Very great client, we have work with him again.\nThanks",
+			"score": 5,
+			"from": "10/2013",
+			"to": "03/2014",
+			"title": "Mobile Developer",
+			"spent": 20704.75,
+			"hoursBilled": 847,
+			"rate": "$24.44",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "09/2013",
+			"to": "03/2014",
+			"title": "Embedded C++ Development",
+			"spent": 1416.67,
+			"hoursBilled": 71,
+			"rate": "$20.00",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "One of the fantastic clients I've had.. Glad I am working with them.",
+			"score": 5,
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "Automation of Weather KML through dotNet.",
+			"spent": 933.51,
+			"hoursBilled": 50,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "12/2013",
+			"to": "02/2014",
+			"title": "Asp.net Development",
+			"spent": 1769.93,
+			"hoursBilled": 318,
+			"rate": "$5.56",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "10/2013",
+			"to": "02/2014",
+			"title": "Mobile iPhone Developer",
+			"spent": 21937.07,
+			"hoursBilled": 979,
+			"rate": "$22.22",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "09/2013",
+			"to": "02/2014",
+			"title": "API Developer",
+			"spent": 13449.94,
+			"hoursBilled": 807,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "UI/UX Designer",
+			"spent": 256.74,
+			"hoursBilled": 17,
+			"rate": "$15.56",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "01/2014",
+			"to": "02/2014",
+			"title": ".Net Nuke Developer",
+			"spent": 1226.67,
+			"hoursBilled": 123,
+			"rate": "$10.00",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "12/2013",
+			"to": "02/2014",
+			"title": "iOS Developer",
+			"spent": 6718.68,
+			"hoursBilled": 344,
+			"rate": "$22.22",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Thanks for work.",
+			"score": 5,
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "UI/UX Designer",
+			"spent": 522.31,
+			"hoursBilled": 25,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "It was great experience of work.",
+			"score": 5,
+			"from": "01/2014",
+			"to": "02/2014",
+			"title": "UI/UX Designer",
+			"spent": 952.95,
+			"hoursBilled": 51,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "01/2014",
+			"to": "02/2014",
+			"title": "mobile apps development",
+			"spent": 980.75,
+			"hoursBilled": 59,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "will work again",
+			"score": 5,
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "Front End Developer",
+			"spent": 95.33,
+			"hoursBilled": 24,
+			"rate": "$4.00",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "I really enjoyed working with this team.",
+			"score": 5,
+			"from": "01/2014",
+			"to": "02/2014",
+			"title": "UI/UX Designer",
+			"spent": 3206.18,
+			"hoursBilled": 186,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Thank you. Will continue working on their next assignment.",
+			"score": 5,
+			"from": "09/2013",
+			"to": "02/2014",
+			"title": "SSIS Developer",
+			"spent": 3810.74,
+			"hoursBilled": 343,
+			"rate": "$11.11",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "09/2013",
+			"to": "02/2014",
+			"title": "API Developer",
+			"spent": 13183.21,
+			"hoursBilled": 791,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Great employer.",
+			"score": 5,
+			"from": "01/2014",
+			"to": "02/2014",
+			"title": "UI/UX Designer",
+			"spent": 453.84,
+			"hoursBilled": 29,
+			"rate": "$15.56",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "01/2014",
+			"to": "02/2014",
+			"title": "Front End Developer",
+			"spent": 850.17,
+			"hoursBilled": 51,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 3.85,
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "Build, Release & Deployment Engineer",
+			"spent": 113.91,
+			"hoursBilled": 6.83,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "08/2013",
+			"to": "02/2014",
+			"title": "WinX Client Application Development",
+			"spent": 1625.81,
+			"hoursBilled": 115,
+			"rate": "$11.11",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Amazing work and comunication, thanks for all.",
+			"score": 5,
+			"from": "09/2013",
+			"to": "01/2014",
+			"title": "After Effects Video Production",
+			"spent": 1125.81,
+			"hoursBilled": 101,
+			"rate": "$11.11",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Great experience to work with this team.",
+			"score": 5,
+			"from": "12/2013",
+			"to": "01/2014",
+			"title": "Mobile QA",
+			"spent": 5126.02,
+			"hoursBilled": 308,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "12/2013",
+			"to": "01/2014",
+			"title": "Front End Developer",
+			"spent": 2750.56,
+			"hoursBilled": 165,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Excellent team of very competent people. I am truly enjoying working with them. Thankx!!",
+			"score": 5,
+			"from": "09/2013",
+			"to": "01/2014",
+			"title": "Embedded C++ Development",
+			"spent": 5405.03,
+			"hoursBilled": 487,
+			"rate": "$11.11",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Nice team to work with. Would be glad to work with them again.",
+			"score": 5,
+			"from": "01/2014",
+			"to": "01/2014",
+			"title": "QUANTITATIVE STATISTICIAN",
+			"spent": 372.5,
+			"hoursBilled": 25,
+			"rate": "$15.00",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "01/2014",
+			"to": "01/2014",
+			"title": "ASP.net / C# / SQLServer",
+			"spent": 102.8,
+			"hoursBilled": 6.17,
+			"rate": "$16.67",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Thank you",
+			"score": 5,
+			"from": "09/2013",
+			"to": "01/2014",
+			"title": "Native Windows Development",
+			"spent": 3559.14,
+			"hoursBilled": 267,
+			"rate": "$13.33",
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Mr.Jared Nielsen, is the great, awesome manager i have ever seen in my 15 years of 3D animation carrier. My heartiest thanks to Odesk for giving me this great chance to work with Mr. Jared Nielsen. \n\nHe appreciate the good work, respect the artist and generous in paying salary and bonus. What else to ask from an employer? \n\nThank you so much SIR.\n\n Always I am on your Order.",
+			"score": 5,
+			"from": "09/2013",
+			"to": "01/2014",
+			"title": "Graphic Designer needed with Photoshop and UI / UX Experience",
+			"spent": 10477.28,
+			"hoursBilled": 552,
+			"rate": "$18.89",
+			"type": "Hourly",
+			"status": "Closed"
+		}]
+	},
+	"type": "Hourly",
+	"category": "Web Development",
+	"maxRate": 0,
+	"minRate": 0,
+	"maxApplicantRate": null,
+	"minApplicantRate": null,
+	"ratings": 43,
+	"amount": null,
+	"engagementWeeks": "More than 6 months",
+	"engagement": "Full-time - 30+ hrs/week",
+	"applyLink": "https://www.odesk.com/job/~013f28564ba11ec642/apply"
+}

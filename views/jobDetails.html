@@ -1,0 +1,120 @@
+<header class="header">
+    <a class="btn btn-back js-back" href="/jobs" data-bind="route: backUrl()">Back</a>
+    <h1 class="header-flex"></h1>
+    <a href="javascript:void(0)" class="btn-icon icon-menu"></a>
+</header>
+
+<div class="content">
+    <div class="loading-backdrop" data-bind="visible: fetching() && !title()" style="<%= 'display: none' %>">
+        <div class="loading">
+            Loading...
+        </div>
+    </div>
+
+    <% if ($data.title) { %>
+    <!-- ko if: title() -->
+    <div class="dark-section">
+        <h1 data-bind="text: title" class="h1"><%= $data.title %></h1>
+        <div class="mb">
+            <strong data-bind="text: type()"><%= $data.type %></strong><span class="mute"> - Posted <time data-bind="moment: created, fn: 'fromNow'"><%= moment($data.created).fromNow() %></time></span>
+        </div>
+
+        <a class="btn btn-tertiary w100 js-apply-to-job" href="<%= $data.applyLink %>" data-bind="attr: { href: applyLink() }" target="_blank">
+            Apply to this job
+            <i class="icon-external-link"></i>
+        </a>
+    </div>
+
+    <div class="tab-panel">
+        <section class="section">
+
+            <div class="info-row">
+                <div class="info-data">
+                    <% if ($data.type === 'Fixed') { %>
+                    <!-- ko if: type() === 'Fixed' -->
+                    <div class="label js-job-est-budget-header">Est. Budget</div>
+                    <div class="label-value js-job-est-budget-amount"><span data-bind="currency: amount, round: 2"></span><%= '$' + roundNumber($data.amount, 2) %></div>
+                    <!-- /ko -->
+                    <% } %>
+                    <% if ($data.type === 'Hourly') { %>
+                    <!-- ko if: type() === 'Hourly' -->
+                        <div class="label js-job-applicant-rate-header">Bid range of applicants</div>
+                        <% if ($data.maxRate) { %>
+                        <!-- ko if: maxRate() -->
+                        <div class="label-value js-job-applicant-rate">
+                            <% if ($data.minRate && $data.minRate !== $data.maxRate) { %>
+                            <!-- ko if: minRate() && minRate() !== maxRate() -->
+                            <span data-bind="currency: minRate, round: 2"><%= '$' + roundNumber($data.minRate, 2) %></span> -
+                            <!-- /ko -->
+                            <% } %>
+                            <span data-bind="currency: maxRate, round: 2"><%= '$' + roundNumber($data.currency, 2) %></span>
+                        </div>
+                        <!-- /ko -->
+                        <% } %>
+                        <% if (!$data.maxRate) { %>
+                        <!-- ko ifnot: maxRate() -->
+                        <div class="label-value">No applicants</div>
+                        <!-- /ko -->
+                        <% } %>
+                    <!-- /ko -->
+                    <% } %>
+                </div>
+
+                <div class="info-data">
+                    <div class="label js-client-feedback-header">Client Feedback</div>
+                    <div class="label-value js-client-feedback-body">
+                        <% if ($data.client.score > 0) { %>
+                        <!-- ko if: client().score > 0 -->
+                        <span class="txt-top" data-bind="number: client().score, round: 1"><%= roundNumber($data.client.score, 1) %></span> <span class="mute txt-normal txt-top" data-bind="text: '(' + ratings() + ' review' + (ratings() > 1 ? 's' : '') + ')'">
+                        <%= '(' + $data.ratings + ' review' + ($data.ratings > 1 ? 's' : '') + ')' %>
+                        </span>
+                        <!-- /ko -->
+                        <% } %>
+                        <% if ($data.client.score <= 0) { %>
+                        <!-- ko ifnot: client().score > 0 -->
+                        <span class="label-value">No feedback</span>
+                        <!-- /ko -->
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-row">
+                <div class="info-data">
+                    <div class="label">Applicants</div>
+                    <div class="label-value" data-bind="text: total"><%= $data.total %></div>
+                </div>
+
+                <div class="info-data">
+                    <div class="label">Interviewing</div>
+                    <div class="label-value" data-bind="text: interviewees"><%= $data.interviewees%></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section">
+            <h3 class="label">Job Description</h3>
+            <p class="lrg-txt" data-bind="linkify: description"><%= $data.description %></p>
+
+            <% if ($data.skills.length) { %>
+            <!-- ko if: skills().length -->
+            <h3 class="label">Skills</h3>
+            <p class="lrg-txt js-job-required-skills" data-bind="text: skills().join(', ')">
+                <%= $data.skills.join(', ') %>
+            </p>
+            <!-- /ko -->
+            <% } %>
+
+            <% if ($data.engagementWeeks) { %>
+            <!-- ko if: engagementWeeks() -->
+            <h3 class="label">Estimated Duration</h3>
+            <strong class="lrg-txt js-job-engagement-weeks" data-bind="text: engagementWeeks"><%= $data.engagementWeeks %></strong>
+            <div data-bind="text: engagement"><%= $data.engagement %></div>
+            <!-- /ko -->
+            <% } %>
+        </section>
+    </div>
+    <!-- /ko -->
+    <% } %>
+</div>

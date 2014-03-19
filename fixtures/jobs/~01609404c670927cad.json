@@ -1,0 +1,470 @@
+{
+	"id": "~01609404c670927cad",
+	"clientId": "",
+	"description": "oDesk Professional Services is looking for an experienced Python developer. The right candidate should have solid programming experience. You will work with one of the core branches of oDesk, and building tools on top of oDesk API. \n\nWe are looking for candidates who are willing to work full-time, if not immediately, then at least within the next few weeks. This is a long-term contract for the right candidate.\n\nRequirements: \n\n+ Skills\n1. Proven Python and web development experience - either in the form of top test scores or in the form of referenceable work\n2. Uses JavaScript/JQuery\n3. Has decent CSS design skills - i.e. can finish/polish the HTML themselves\n4. Comfortable with distributed version control git/mercurial etc\n5. Strong communication skills\n6. Independent contractor - we are not looking to hire agency contractors at the moment. \n\n+ Availability\n7. Available to work as soon as possible\n8. Be able to allocate 30 hrs per week. The availability need could start part-time for about 2 weeks, but later on, we are hoping you can provide full-time availability.\n\nNice to have:\n- Proven Django experience\n- Proven experience developing RESTful APIs\n- Have some open source contribution in Python projects\n- Have community participation in Python lists/blogs etc. \n\nLooking forward to hearing from you!",
+	"title": "Work for oDesk! Experienced Python/Django Developer",
+	"total": 63,
+	"hires": 0,
+	"active": 0,
+	"interviewees": 5,
+	"inviteOnly": false,
+	"created": 1395067755000,
+	"skills": [],
+	"client": {
+		"id": "~01609404c670927cad",
+		"timezone": "-08:00",
+		"country": "United States",
+		"memberSince": "January 1, 2003",
+		"totalSpent": 50000,
+		"hoursBilled": 1373225,
+		"paidContracts": 3275,
+		"verified": true,
+		"score": 4.97267559901685,
+		"assignments": [{
+			"from": "03/2014",
+			"to": "Present",
+			"title": "Kinetic Text Project",
+			"spent": null,
+			"hoursBilled": 0,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "01/2014",
+			"to": "Present",
+			"title": "Python Technical Interviewer",
+			"spent": null,
+			"hoursBilled": 50.33,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "03/2014",
+			"to": "Present",
+			"title": "Java developer",
+			"spent": null,
+			"hoursBilled": 4.33,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "03/2014",
+			"to": "Present",
+			"title": "Product Analyst",
+			"spent": null,
+			"hoursBilled": 0,
+			"type": "Fixed",
+			"status": "Active"
+		}, {
+			"from": "03/2014",
+			"to": "Present",
+			"title": "Java developer",
+			"spent": null,
+			"hoursBilled": 24,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "03/2014",
+			"to": "Present",
+			"title": "Interaction Designer",
+			"spent": null,
+			"hoursBilled": 12,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "01/2013",
+			"to": "Present",
+			"title": "Back-end developer",
+			"spent": null,
+			"hoursBilled": 1935,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "08/2013",
+			"to": "Present",
+			"title": "Java developer",
+			"spent": null,
+			"hoursBilled": 483,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "08/2012",
+			"to": "Present",
+			"title": "Back-end developer",
+			"spent": null,
+			"hoursBilled": 3328,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "02/2013",
+			"to": "Present",
+			"title": "JavaScript Engineer",
+			"spent": null,
+			"hoursBilled": 1806,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "09/2012",
+			"to": "Present",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 2736,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "07/2013",
+			"to": "Present",
+			"title": "Senior PHP Engineer",
+			"spent": null,
+			"hoursBilled": 1449,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "10/2012",
+			"to": "Present",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 3377,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "08/2012",
+			"to": "Present",
+			"title": "QA Automation/Performance Engineer",
+			"spent": null,
+			"hoursBilled": 3609,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "02/2013",
+			"to": "Present",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 1220,
+			"type": "Hourly",
+			"status": "Active"
+		}, {
+			"from": "03/2014",
+			"to": "03/2014",
+			"title": "Product Analyst",
+			"spent": null,
+			"hoursBilled": 0.67,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Thanks again to odesk product team and Albert",
+			"score": 5,
+			"from": "02/2014",
+			"to": "03/2014",
+			"title": "Research Analyst",
+			"spent": null,
+			"hoursBilled": 0,
+			"type": "Fixed",
+			"status": "Closed"
+		}, {
+			"comment": "Shipra and the oDesk design team was great to work with.  They understand quality user research work and were clear with their requirements and communication.",
+			"score": 5,
+			"from": "01/2014",
+			"to": "03/2014",
+			"title": "User Researcher/ Tester",
+			"spent": null,
+			"hoursBilled": 59,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Five star client. Thanks oDesk and Albert for providing me this wonderful opportunity to work on this project.",
+			"score": 5,
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "Research Analyst",
+			"spent": null,
+			"hoursBilled": 0,
+			"type": "Fixed",
+			"status": "Closed"
+		}, {
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "Back-end developer",
+			"spent": null,
+			"hoursBilled": 70,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "09/2013",
+			"to": "02/2014",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 919,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "07/2013",
+			"to": "02/2014",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 1317,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "03/2013",
+			"to": "02/2014",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 1843,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "10/2012",
+			"to": "02/2014",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 2412,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "10/2013",
+			"to": "02/2014",
+			"title": "HTML/CSS/JS developer",
+			"spent": null,
+			"hoursBilled": 692,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Excellent company with very good PMs, testers etc. Happy to work here",
+			"score": 5,
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "Front End Developer",
+			"spent": null,
+			"hoursBilled": 59,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "08/2010",
+			"to": "02/2014",
+			"title": "Experienced Javascript/UI Engineer",
+			"spent": null,
+			"hoursBilled": 5851,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "09/2013",
+			"to": "02/2014",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 802,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "PHP Developer",
+			"spent": null,
+			"hoursBilled": 67,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "09/2010",
+			"to": "02/2014",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 8960,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "08/2010",
+			"to": "02/2014",
+			"title": "Javascript/AJAX Developer",
+			"spent": null,
+			"hoursBilled": 7954,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "PHP Front-end developer",
+			"spent": null,
+			"hoursBilled": 95,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "Back-end developer",
+			"spent": null,
+			"hoursBilled": 131,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "11/2013",
+			"to": "02/2014",
+			"title": "Java developer",
+			"spent": null,
+			"hoursBilled": 604,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "10/2013",
+			"to": "02/2014",
+			"title": "Java developer",
+			"spent": null,
+			"hoursBilled": 767,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "10/2013",
+			"to": "02/2014",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 542,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "03/2012",
+			"to": "02/2014",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 3894,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "It's a great experience working with oDesk team! Thank You Sasha! :)",
+			"score": 5,
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "InDesign Test - Freelancer Manual",
+			"spent": null,
+			"hoursBilled": 1.33,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "An amazing company with amazing people. I will miss you all guys",
+			"score": 5,
+			"from": "09/2010",
+			"to": "02/2014",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 1170,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Thanks",
+			"score": 5,
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "Need help comparing 2 sets of categorical data",
+			"spent": null,
+			"hoursBilled": 0,
+			"type": "Fixed",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "07/2011",
+			"to": "02/2014",
+			"title": "Javascript developer",
+			"spent": null,
+			"hoursBilled": 7133,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "02/2014",
+			"to": "02/2014",
+			"title": "small oDesk API project + data manupulation  (you can use perl or python or javascript )",
+			"spent": null,
+			"hoursBilled": 32,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "12/2013",
+			"to": "02/2014",
+			"title": "Front End Developer",
+			"spent": null,
+			"hoursBilled": 305,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "08/2013",
+			"to": "02/2014",
+			"title": "Senior PHP Engineer",
+			"spent": null,
+			"hoursBilled": 1026,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "06/2013",
+			"to": "02/2014",
+			"title": "Back-end developer",
+			"spent": null,
+			"hoursBilled": 639,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "07/2013",
+			"to": "02/2014",
+			"title": "Back-end developer",
+			"spent": null,
+			"hoursBilled": 524,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"from": "05/2013",
+			"to": "02/2014",
+			"title": "Forum Analyst",
+			"spent": null,
+			"hoursBilled": 1448,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Odesk is great place to work. Company develop their own strategy of how to work with freelancers. Only professionals works here.",
+			"score": 5,
+			"from": "01/2013",
+			"to": "02/2014",
+			"title": "Back-end developer",
+			"spent": null,
+			"hoursBilled": 1982,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "Just the best company ever!",
+			"score": 5,
+			"from": "11/2012",
+			"to": "02/2014",
+			"title": "Front-end developer",
+			"spent": null,
+			"hoursBilled": 3747,
+			"type": "Hourly",
+			"status": "Closed"
+		}, {
+			"comment": "",
+			"score": 5,
+			"from": "09/2012",
+			"to": "02/2014",
+			"title": "PHP Developer",
+			"spent": null,
+			"hoursBilled": 3506,
+			"type": "Hourly",
+			"status": "Closed"
+		}]
+	},
+	"type": "Hourly",
+	"category": "Software Development",
+	"maxRate": 55.56,
+	"minRate": 4.44,
+	"maxApplicantRate": null,
+	"minApplicantRate": null,
+	"ratings": 1677,
+	"amount": null,
+	"engagementWeeks": "More than 6 months",
+	"engagement": "Full-time - 30+ hrs/week",
+	"applyLink": "https://www.odesk.com/job/~01609404c670927cad/apply"
+}

@@ -1,0 +1,102 @@
+<header class="header">
+    <a class="btn btn-back js-back" data-bind="route: backUrl()">Back</a>
+    <h1 class="header-flex">
+        <!-- ko ifnot: fetching -->
+        <!-- ko text: Date.now() - navigationStart() --><!-- /ko -->
+        <!-- /ko -->
+    </h1>
+    <a href="javascript:void(0)" class="btn-icon icon-menu"></a>
+</header>
+
+<div class="content">
+    <!-- ko if: fetching() && !title() -->
+    <div class="loading-backdrop">
+        <div class="loading">
+            Loading...
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <!-- ko if: title -->
+    <div class="dark-section">
+        <h1 data-bind="text: title" class="h1"></h1>
+        <div class="mb">
+            <strong data-bind="text: type()"></strong><span class="mute"> - Posted <time data-bind="moment: created, fn: 'fromNow'"></time></span>
+        </div>
+
+        <a class="btn btn-tertiary w100 js-apply-to-job" data-bind="attr: { href: applyLink() }" target="_blank">
+            Apply to this job
+            <i class="icon-external-link"></i>
+        </a>
+    </div>
+
+    <div class="tab-panel">
+        <section class="section">
+
+            <div class="info-row">
+                <div class="info-data">
+                    <!-- ko if: type() === 'Fixed' -->
+                    <div class="label js-job-est-budget-header">Est. Budget</div>
+                    <div class="label-value js-job-est-budget-amount"><span data-bind="currency: amount, round: 2"></span></div>
+                    <!-- /ko -->
+                    <!-- ko ifnot: type() === 'Fixed' -->
+                        <div class="label js-job-applicant-rate-header">Bid range of applicants</div>
+                        <!-- ko if: maxRate -->
+                        <div class="label-value js-job-applicant-rate">
+                            <!-- ko if: minRate() && minRate() !== maxRate() -->
+                            <span data-bind="currency: minRate, round: 2"></span> -
+                            <!-- /ko -->
+                            <span data-bind="currency: maxRate, round: 2"></span>
+                        </div>
+                        <!-- /ko -->
+                        <!-- ko ifnot: maxRate -->
+                        <div class="label-value">No applicants</div>
+                        <!-- /ko -->
+                    <!-- /ko -->
+                </div>
+
+                <div class="info-data">
+                    <div class="label js-client-feedback-header">Client Feedback</div>
+                    <div class="label-value js-client-feedback-body">
+                        <!-- ko if: client().score > 0 -->
+                        <span class="txt-top" data-bind="number: client().score, round: 1"></span> <span class="mute txt-normal txt-top" data-bind="text: '(' + ratings() + ' review' + (ratings() > 1 ? 's' : '') + ')'"> </span>
+                        <!-- /ko -->
+                        <!-- ko ifnot: client().score > 0 -->
+                        <span class="label-value">No feedback</span>
+                        <!-- /ko -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-row">
+                <div class="info-data">
+                    <div class="label">Applicants</div>
+                    <div class="label-value" data-bind="text: total"></div>
+                </div>
+
+                <div class="info-data">
+                    <div class="label">Interviewing</div>
+                    <div class="label-value" data-bind="text: interviewees"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section">
+            <h3 class="label">Job Description</h3>
+            <p class="lrg-txt" data-bind="linkify: description"></p>
+
+            <!-- ko if: skills().length -->
+            <h3 class="label">Skills</h3>
+            <p class="lrg-txt js-job-required-skills" data-bind="text: skills().join(', ')"></p>
+            <!-- /ko -->
+
+            <!-- ko if: engagementWeeks() -->
+            <h3 class="label">Estimated Duration</h3>
+            <strong class="lrg-txt js-job-engagement-weeks" data-bind="text: engagementWeeks"></strong>
+            <div data-bind="text: engagement"></div>
+            <!-- /ko -->
+        </section>
+    </div>
+    <!-- /ko -->
+</div>

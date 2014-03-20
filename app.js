@@ -4,14 +4,90 @@ var express = require('express'),
     fs = require('fs'),
     app = express(),
     cons = require('consolidate'),
-    moment = require('moment');
+    moment = require('moment'),
+    mime = require('mime'),
+    path = require('path');
 
 app.engine('html', cons.underscore);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 app.use(express.compress());
-app.use(express.static(__dirname + '/public/dist'));
-app.use(express.static(__dirname + '/public/app'));
+
+// Disable connect static middleware as it adds ETags by default
+// which prevents the browser from serving files from cache immediately
+// app.use(express.static(__dirname + '/public/dist'));
+// app.use(express.static(__dirname + '/public/app'));
+
+var bases = [
+    __dirname + '/public/dist',
+    __dirname + '/public/app'
+];
+
+// Our own custom static middleware just to avoid adding ETags.
+app.use(function(req, res, next) {
+    var serveStatic = function(url, cb) {
+        fs.readFile(url, 'utf8', function(err, content) {
+            if (err) {
+                if (url.lastIndexOf('/') === url.length - 1) {
+                    url += 'index.html';
+
+                    fs.readFile(url, 'utf8', function(err, content) {
+                        if (err) {
+                            return cb(err);
+                        }
+
+                        cb(null, {
+                            url: url,
+                            content: content
+                        });
+                    });
+                } else {
+                    cb(err);
+                }
+
+                return;
+            }
+
+            cb(null, {
+                url: url,
+                content: content
+            });
+        });
+    };
+
+    var basesCounter = 0;
+
+    var loop = function() {
+        var url = path.join(bases[basesCounter], req.url || '/');
+
+        serveStatic(url, function(err, resp) {
+            if (err) {
+                if (basesCounter >= bases.length - 1) {
+                    next();
+                } else {
+                    basesCounter++;
+                    loop();
+                }
+
+                return;
+            }
+
+            fs.stat(resp.url, function(err, stat) {
+                app.settings.etag = false;
+                res.setHeader('Content-Type', mime.lookup(resp.url));
+                res.setHeader('Cache-Control', 'public, max-age=31536000');
+                res.setHeader('Expires', new Date(Date.now() + 31536000000).toUTCString());
+                res.setHeader('Last-Modified', !err && stat.mtime.toUTCString());
+                res.send(resp.content);
+                app.settings.etag = true;
+            });
+        });
+    };
+
+    loop();
+});
+
+app.use(app.router);
 
 var roundNumber = function(number, round) {
     number = number || 0;

@@ -1,11 +1,12 @@
 {
   "name": "mobile-perf",
-  "version": "0.1.0-10",
+  "version": "0.1.0-12",
   "dependencies": {
     "express": "~3.4.8",
     "underscore": "~1.6.0",
     "moment": "~2.5.1",
-    "consolidate": "0.10.x"
+    "consolidate": "0.10.x",
+    "mime": "~1.2.11"
   },
   "subdomain": "mobile-perf",
   "scripts": {

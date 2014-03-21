@@ -4,6 +4,15 @@
         <meta charset="utf-8">
         <title>mobile-perf</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <script>
+            if (!window.performance) {
+                window.performance = {
+                    timing: {
+                        navigationStart: Date.now()
+                    }
+                };
+            }
+        </script>
         <link rel="stylesheet" href="/styles/main.css">
     </head>
     <body>
@@ -90,7 +99,7 @@
 
                 window.addEventListener('load', function() {
                     setTimeout(function() {
-                        document.querySelector('header .header-flex').textContent = performance.timing.loadEventEnd - performance.timing.navigationStart;
+                        document.querySelector('header .header-flex').textContent = (window.performance.timing.loadEventEnd || Date.now()) - window.performance.timing.navigationStart;
                     }, 0);
                 });
 

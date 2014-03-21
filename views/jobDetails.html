@@ -95,7 +95,7 @@
 
         <section class="section">
             <h3 class="label">Job Description</h3>
-            <p class="lrg-txt" data-bind="linkify: description"><%= linkifyText($data.description) %></p>
+            <div class="lrg-txt" data-bind="linkify: description"><%= linkifyText($data.description) %></div>
 
             <% if ($data.skills.length) { %>
             <!-- ko if: skills().length -->

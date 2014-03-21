@@ -6,7 +6,8 @@ var express = require('express'),
     cons = require('consolidate'),
     moment = require('moment'),
     mime = require('mime'),
-    path = require('path');
+    path = require('path'),
+    linkify = require('./ba-linkify');
 
 app.engine('html', cons.underscore);
 app.set('view engine', 'html');
@@ -99,12 +100,26 @@ var roundNumber = function(number, round) {
     return integers + (round ? '.' + decimals : '');
 };
 
+var linkifyText = function(text) {
+    var html = text.split('\n').map(function(el) {
+        return '<p>' + (el || '<br>') + '</p>';
+    }).join('');
+
+    return linkify(html, {
+        callback: function(text, href) {
+            return href ? '<a href="https://www.odesk.com/leaving-odesk?ref=' + encodeURIComponent(href) +
+                '" title="You are about to go to a URL outside odesk.com" target="_blank">' + text + '</a>' : text;
+        }
+    });
+};
+
 var renderPage = function(path, data, cb) {
     cons.underscore(path, {
         cache: true,
         $data: data,
         moment: moment,
-        roundNumber: roundNumber
+        roundNumber: roundNumber,
+        linkifyText: linkifyText
     }, cb);
 };
 
